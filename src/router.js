@@ -74,6 +74,11 @@ export default new Router({
           path: 'popover',
           name: 'popoverDoc',
           component: () => import(/* webpackChunkName: "popoverDoc" */ './views/docs/components/popover/index.vue')
+        },
+        {
+          path: 'progress',
+          name: 'progressDoc',
+          component: () => import(/* webpackChunkName: "progressDoc" */ './views/docs/components/progress/index.vue')
         }
       ]
     }, {
@@ -130,6 +135,11 @@ export default new Router({
           path: 'popover',
           name: 'popoverDemo',
           component: () => import(/* webpackChunkName: "popoverDemo" */ './views/docs/components/popover/demo.vue')
+        },
+        {
+          path: 'progress',
+          name: 'progressDemo',
+          component: () => import(/* webpackChunkName: "popoverDemo" */ './views/docs/components/progress/demo.vue')
         }
       ]
     }

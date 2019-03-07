@@ -9,6 +9,7 @@ import Drawer from './drawer/src/index'
 import Modal from './modal'
 import ActionSheet from './action-sheet/src/index'
 import Popover from './popover/src/index'
+import Progress from './progress/src/index'
 
 const components = [
   Icon,
@@ -19,7 +20,8 @@ const components = [
   FlexItem,
   Drawer,
   ActionSheet,
-  Popover
+  Popover,
+  Progress
 ]
 
 const methods = [
@@ -54,7 +56,8 @@ const NewsUIMobile = {
   Drawer,
   Modal,
   ActionSheet,
-  Popover
+  Popover,
+  Progress
 }
 
 export default NewsUIMobile

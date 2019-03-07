@@ -69,6 +69,10 @@ export default {
               name: 'Popover 气泡',
               path: '/docs/popover',
               id: '/docs/popover'
+            }, {
+              name: 'Progress 进度条',
+              path: '/docs/progress',
+              id: '/docs/progress'
             }
           ]
         }
