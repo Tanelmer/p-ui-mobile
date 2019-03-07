@@ -76,15 +76,14 @@ export default new Router({
           component: () => import(/* webpackChunkName: "popoverDoc" */ './views/docs/components/popover/index.vue')
         },
         {
-<<<<<<< HEAD
           path: 'progress',
           name: 'progressDoc',
           component: () => import(/* webpackChunkName: "progressDoc" */ './views/docs/components/progress/index.vue')
-=======
+        },
+        {
           path: 'badge',
           name: 'badgeDoc',
           component: () => import(/* webpackChunkName: "badgeDoc" */ './views/docs/components/badge/index.vue')
->>>>>>> 3699c44ec4fbe44f5c73d3bca9ecd0b4af93fe2c
         }
       ]
     }, {
