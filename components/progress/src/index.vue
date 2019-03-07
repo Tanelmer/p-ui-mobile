@@ -1,6 +1,8 @@
 <template>
   <div :class="`${prefixCls}-wrap`">
+    <slot name="start"></slot>
     <div :class="{[`${prefixCls}-inner`]:true}">111</div>
+    <slot name="end"></slot>
   </div>
 </template>
 

@@ -4,26 +4,19 @@
 
 ## 代码演示
 
-```javascript
-// main.js
-
-import { Drawer } from 'news-ui-mobile'
-
-Vue.use(Drawer)
-```
-
 ```html
 <!-- *.vue -->
+
 <template>
   <div style="min-height: 100vh">
-    <n-wing-blank>
-      <n-white-space></n-white-space>
-      <n-button @click="handleShowLeft">左侧</n-button>
-      <n-white-space></n-white-space>
-      <n-button @click="handleShowRight">右侧</n-button>
-      <n-white-space></n-white-space>
+    <p-wing-blank>
+      <p-white-space></p-white-space>
+      <p-button @click="handleShowLeft">左侧</p-button>
+      <p-white-space></p-white-space>
+      <p-button @click="handleShowRight">右侧</p-button>
+      <p-white-space></p-white-space>
 
-      <n-drawer
+      <p-drawer
         v-model="visible"
         :side="side"
         @show="handleShow"
@@ -31,9 +24,9 @@ Vue.use(Drawer)
         distance="25%"
       >
         这是一个抽屉
-      </n-drawer>
+      </p-drawer>
 
-    </n-wing-blank>
+    </p-wing-blank>
   </div>
 </template>
 

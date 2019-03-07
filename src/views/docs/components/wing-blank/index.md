@@ -3,30 +3,23 @@
 布局组件，两翼留出一定空白。
 
 ## 代码演示
-```javascript
-// main.js
-
-import { WingBlank } from 'news-ui-mobile'
-
-Vue.use(WingBlank)
-```
 
 ```html
 <!-- *.vue -->
 
 <template>
   <div>
-    <n-wing-blank>
-      <n-button>默认边距16px</n-button>
-    </n-wing-blank>
-    <n-white-space></n-white-space>
-    <n-wing-blank size="30px">
-      <n-button>自定义 30px</n-button>
-    </n-wing-blank>
-    <n-white-space></n-white-space>
-    <n-wing-blank size="30%">
-      <n-button>自定义 30%</n-button>
-    </n-wing-blank>
+    <p-wing-blank>
+      <p-button>默认边距16px</p-button>
+    </p-wing-blank>
+    <p-white-space></p-white-space>
+    <p-wing-blank size="30px">
+      <p-button>自定义 30px</p-button>
+    </p-wing-blank>
+    <p-white-space></p-white-space>
+    <p-wing-blank size="30%">
+      <p-button>自定义 30%</p-button>
+    </p-wing-blank>
   </div>
 </template>
 

@@ -10,6 +10,7 @@ import Modal from './modal'
 import ActionSheet from './action-sheet/src/index'
 import Popover from './popover/src/index'
 import Progress from './progress/src/index'
+import Badge from './badge/index'
 
 const components = [
   Icon,
@@ -21,7 +22,8 @@ const components = [
   Drawer,
   ActionSheet,
   Popover,
-  Progress
+  Progress,
+  Badge
 ]
 
 const methods = [
@@ -43,21 +45,11 @@ if (typeof window !== 'undefined' && window.Vue) {
   install(window.Vue)
 }
 
-const NewsUIMobile = {
+const PUIMobile = {
   version: '0.0.1',
   install,
-  Toast,
-  Icon,
-  WingBlank,
-  Button,
-  WhiteSpace,
-  FlexWrap,
-  FlexItem,
-  Drawer,
-  Modal,
-  ActionSheet,
-  Popover,
-  Progress
+  ...components,
+  ...methods
 }
 
-export default NewsUIMobile
+export default PUIMobile

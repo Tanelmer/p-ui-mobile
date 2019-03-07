@@ -3,19 +3,12 @@
 语义化的矢量图标。
 
 ## 代码演示
-```javascript
-// main.js
-
-import { Icon } from 'news-ui-mobile'
-
-Vue.use(Icon)
-```
 
 ```html
 <!-- *.vue -->
 
 <template>
-  <n-icon type="icon-forward"></n-icon>
+  <p-icon type="icon-forward"></p-icon>
 </template>
 ```
 ## API
