@@ -11,6 +11,7 @@ import ActionSheet from './action-sheet/src/index'
 import Popover from './popover/src/index'
 import Progress from './progress/src/index'
 import Badge from './badge/index'
+import Switch from './switch/index'
 
 const components = [
   Icon,
@@ -23,7 +24,8 @@ const components = [
   ActionSheet,
   Popover,
   Progress,
-  Badge
+  Badge,
+  Switch
 ]
 
 const methods = [
