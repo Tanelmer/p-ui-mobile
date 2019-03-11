@@ -1,11 +1,37 @@
 @import '../../style/index.less';
 
-@popover-prefix-cls: ~'@{prefix-cls}-progress';
+@progress-prefix-cls: ~'@{prefix-cls}-progress';
 
 
-.@{popover-prefix-cls} {
+.@{progress-prefix-cls} {
 
-  &-wrap {
-    
+  &-wrap{
+    position: relative;
+    display: flex;
+  }
+
+  &-main{
+    position: relative;
+    flex: 1;
+  }
+
+  &-out{
+    position: absolute;
+    transform: translate(0, -50%);
+    top: 50%;
+    left: 0;
+    right: 0;
+    background-color: @brand-disabled-color;
+    height: 3px;
+  }
+
+  &-inner {
+    position: absolute;
+    display: block;
+    background-color: @brand-primary-color;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 0;
+    transition: width .3s ease;
   }
 }
