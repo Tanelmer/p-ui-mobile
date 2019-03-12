@@ -8,7 +8,7 @@ export default new Router({
     {
       path: '/',
       name: '/',
-      redirect: '/docs',
+      redirect: 'docs/start',
       component: () => import(/* webpackChunkName: "doc" */ './views/docs/index.vue')
     }, {
       path: '/docs',
