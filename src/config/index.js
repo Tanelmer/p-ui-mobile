@@ -52,6 +52,10 @@ export default {
               name: 'Badge 徽标',
               path: '/docs/badge',
               id: '/docs/badge'
+            }, {
+              name: 'Switch 开关',
+              path: '/docs/switch',
+              id: '/docs/switch'
             }
           ]
         }, {

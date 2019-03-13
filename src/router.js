@@ -8,7 +8,7 @@ export default new Router({
     {
       path: '/',
       name: '/',
-      redirect: '/docs',
+      redirect: 'docs/start',
       component: () => import(/* webpackChunkName: "doc" */ './views/docs/index.vue')
     }, {
       path: '/docs',
@@ -84,6 +84,11 @@ export default new Router({
           path: 'badge',
           name: 'badgeDoc',
           component: () => import(/* webpackChunkName: "badgeDoc" */ './views/docs/components/badge/index.vue')
+        },
+        {
+          path: 'switch',
+          name: 'switchDoc',
+          component: () => import(/* webpackChunkName: "switchDoc" */ './views/docs/components/switch/index.vue')
         }
       ]
     }, {
@@ -150,6 +155,11 @@ export default new Router({
           path: 'badge',
           name: 'badgeDemo',
           component: () => import(/* webpackChunkName: "badgeDemo" */ './views/docs/components/badge/demo.vue')
+        },
+        {
+          path: 'switch',
+          name: 'switchDemo',
+          component: () => import(/* webpackChunkName: "switchDemo" */ './views/docs/components/switch/demo.vue')
         }
       ]
     }
