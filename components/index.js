@@ -6,6 +6,7 @@ import Flex from './flex/index'
 import Drawer from './drawer/index'
 import ActionSheet from './action-sheet/index'
 import Popover from './popover/index'
+import Progress from './progress/index'
 import Badge from './badge/index'
 import Switch from './switch/index'
 
