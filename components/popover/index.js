@@ -1,7 +1,7 @@
-import Component from './src/index'
+import Component from './popover'
 
-Component.install = function (Vue, opts = {}) {
-  Vue.component(Component.name, Component)
+export default {
+  install: function (Vue, opts = {}) {
+    Vue.component(Component.name, Component)
+  }
 }
-
-export default Component
