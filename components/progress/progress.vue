@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import config from '../../_util/config'
+import config from '../_util/config'
 
 export default {
   name: 'PProgress',
