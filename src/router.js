@@ -155,7 +155,6 @@ export default new Router({
           path: 'badge',
           name: 'badgeDemo',
           component: () => import(/* webpackChunkName: "badgeDemo" */ './views/docs/components/badge/demo.vue')
-
         },
         {
           path: 'switch',
