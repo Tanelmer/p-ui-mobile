@@ -9,12 +9,15 @@ import Popover from './popover/index'
 import Progress from './progress/index'
 import Badge from './badge/index'
 import Switch from './switch/index'
+import PullDown from './pull-down/index'
+import ReachBottom from './reach-bottom/index'
 
 import Toast from './toast/index'
 import Modal from './modal/index'
 
 import { version } from '../package.json'
-import './style'
+
+import './style/components.less'
 
 const components = [
   Icon,
@@ -27,7 +30,9 @@ const components = [
   Popover,
   Progress,
   Badge,
-  Switch
+  Switch,
+  PullDown,
+  ReachBottom
 ]
 
 const methods = [
